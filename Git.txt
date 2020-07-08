@@ -12,6 +12,18 @@ git config --global user.name "UserName" //UserName
 git config --global user.email "email@mail.com" //email
 git config --global --list //ตรวจสอบค่าหลังจากกำหนดเสร็จแล้ว
 
+Git Init สร้าง Git  Repository
+git init
+
+Git Status ตรวจสอบสถานะไฟล์ใน Git
+git status
+
+- Untracked สถานะไฟล์ยังไม่ได้ถูกเก็บไว้ในระบบ Git
+- Working Directory สถานะที่มีการเปลี่ยนแปลงหรือแก้ไขไฟล์
+- Staged สถานะเตรียม Comit เพื่อยืนยันการเปลี่ยนแปลงก่อนเก็บลงในสถานะ Local Repository
+- Local Repository สถานะเก็บบันทึกข้อมูลไฟล์ที่เปลี่ยนแปลงลงใน Git Repository แบบ Local (Your Computer)
+- Remote Repository สถานะเก็บบันทึกข้อมูลไฟล์ที่เปลี่ยนแปลงลงใน Git Repository แบบ Hosting (Server)
+
 
 
 
