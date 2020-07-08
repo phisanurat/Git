@@ -1,0 +1,17 @@
+Git (Distributed Version Control System)
+
+ตรวจสอบ Version Git
+git --version
+
+Git Config แสดงค่าของ Git
+git config --global --list //แสดงคุณสมบัติ Git ทั้งหมด global
+git config --list //แสดงคุณสมบัติ Git เฉพาะ Repository 
+
+Git Config ตั้งค่า Config Git
+git config --global user.name "UserName" //UserName
+git config --global user.email "email@mail.com" //email
+git config --global --list //ตรวจสอบค่าหลังจากกำหนดเสร็จแล้ว
+
+
+
+
