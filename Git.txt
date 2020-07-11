@@ -24,6 +24,30 @@ git status
 - Local Repository สถานะเก็บบันทึกข้อมูลไฟล์ที่เปลี่ยนแปลงลงใน Git Repository แบบ Local (Your Computer)
 - Remote Repository สถานะเก็บบันทึกข้อมูลไฟล์ที่เปลี่ยนแปลงลงใน Git Repository แบบ Hosting (Server)
 
+Git Add เพิ่มไฟล์ เข้าสู่ Staged
+git add <file_name>
+git add README.md #เพิ่มไฟล์ README.md เข้าไปที่สถานะ Staged 
+git add .  #เพิ่มไฟล์ทั้งหมด
+
+Git Commit เก็บไฟล์ Staged เข้าไปใน Local Repository
+git commit -m "message"  #ยีนยันเปลี่ยนแปลงพร้อมข้อความ
+
+Git Log แสดงประวัติของ Repository
+git Log
+git log --oneline
+git log --oneline --decorate
+git log --oneline --decorate --graph
+git log --stat    #Diff from log
+got log --grep="Message" #Log by message
+git log --after="2020-10-10" #Log in date 
+git log --before="2020-10-10" #Log in date  
+git log --author=writer #Log by user
+
+Git Clean แสดงและลบไฟล์ที่อยู่สถานะ Untracked 
+git clean -n #แสดง Source Code ที่อยู่สถานะ Untracked 
+gir clean -df #ลบ Source Code ที่อยู่สถานะ Untracked 
+
+
 
 
 
