@@ -1,0 +1,21 @@
+@package python.
+$pip install virtualenv
+
+@Create python env.
+$python3 -m venv <dir_name>
+
+@Activate.
+$source <dir_name>/bin/activate
+
+@Deactivate.
+$deactivate
+
+@Path.
+$which python3
+
+@Fix version package.
+$pip freeze
+$pip freeze > requirements.txt
+
+@Install package from file requirements.
+$pip install -r requirements.txt
