@@ -2,20 +2,32 @@
 $pip install virtualenv
 
 @Create python env.
+OSX
 $python3 -m venv <dir_name>
+Windows
+$python -m venv <dir_name>
+
 
 @Activate.
+OSX
 $source <dir_name>/bin/activate
+Windows
+$<dir_name>\Scripts\activate.bat
+
 
 @Deactivate.
 $deactivate
 
 @Path.
 $which python3
+$where python
 
-@Fix version package.
+@List version package.
 $pip freeze
 $pip freeze > requirements.txt
 
 @Install package from file requirements.
 $pip install -r requirements.txt
+
+
+
