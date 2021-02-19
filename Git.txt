@@ -49,6 +49,6 @@ gir clean -df #ลบ Source Code ที่อยู่สถานะ Untracked
 
 
 
-
+test reset
 
 
