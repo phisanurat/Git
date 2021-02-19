@@ -48,7 +48,8 @@ git clean -n #แสดง Source Code ที่อยู่สถานะ Untr
 gir clean -df #ลบ Source Code ที่อยู่สถานะ Untracked 
 
 
-
+git revert <commit-id>   //revert commit by id
+git reset --hard HEAD~1  //reset 1 commit
 
 
 
