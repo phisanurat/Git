@@ -53,3 +53,6 @@ git reset --hard HEAD~1  //reset 1 commit
 
 
 
+git commit -am "message"   //commit
+git push //push code to github
+git fetch //feel like refresh f5
